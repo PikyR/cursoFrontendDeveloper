@@ -1,5 +1,55 @@
+// COLORS
 $color-light: #FFFFFF;
 $color-dark: #000000;
 $color-very-light-pink: #C7C7C7;
 $color-text-input-field: #F7F7F7;
 $color-hospital-green: #ACD9B2;
+
+// FONTS
+$font-primary: 'Quicksand', sans-serif;
+
+// SIZES
+$sm: 1.4rem;
+$md: 1.6rem;
+$lg: 1.8rem;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {font-size: 62.5%;}
+
+body {
+  font-size: $md;
+  font-family: $font-primary;
+}
+
+.labels {
+  font-size: $sm;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.inputs{
+  height: 32px;
+  padding: 6px;
+  margin-bottom: 12px;
+  font-size: $md;
+  background-color: $color-text-input-field;
+  border: none;
+  border-radius: 8px;
+}
+
+.button {
+  height: 50px;
+  background-color: $color-hospital-green;
+  border: none;
+  border-radius: 8px;
+  font-family: $font-primary;
+  font-size: $md;
+  font-weight: 700;
+  color: $color-light;
+  cursor: pointer;
+}
