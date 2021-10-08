@@ -1,0 +1,29 @@
+.email-sent {
+  width: 400px;
+  padding: 16px;
+  display: grid;
+  justify-items: center;
+
+  &__icon {
+    width: 132px;
+    height: 132px;
+    margin-bottom: 36px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: $color-text-input-field;
+
+    & img {
+      width: 60%;
+    }
+  }
+
+  &__paragraph {
+    font-size: $sm;
+
+    a {
+      color: $color-hospital-green;
+      text-decoration: none;
+    }
+  }
+}
