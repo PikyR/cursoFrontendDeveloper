@@ -12,17 +12,16 @@
   </head>
   <body>
     <div class="main-container">
-      <section class="new-pass">
+      <section class="login">
         <figure class="content-logo"><img src="assets/logos/logo_yard_sale.svg" alt="Logo de yard sale"></figure>
-        <h1 class="content-title">Create a new password</h1>
-        <p class="content-sub-title">Enter a new password for you acount </p>
-        <form class="new-pass__form">
+        <form class="login__form">
+          <label class="labels" for="email">Email address </label>
+          <input class="inputs" type="email" id="email" placeholder="my-email@example.com">
           <label class="labels" for="password">Password </label>
           <input class="inputs" type="password" id="password" placeholder="******">
-          <label class="labels" for="new-password">Re-enter password </label>
-          <input class="inputs" type="password" id="new-password" placeholder="******">
-          <input class="button button--primary" type="submit" value="Confirm">
+          <input class="button button--primary" type="submit" value="Log in"><a class="link link--login" href="#">Forgot my password</a>
         </form>
+        <button class="button button--secondary button--sign-up">Sign up</button>
       </section>
     </div>
   </body>

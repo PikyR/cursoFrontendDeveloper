@@ -1,5 +1,6 @@
 .email-sent {
   width: 400px;
+  min-width: 320px;
   padding: 16px;
   display: grid;
   justify-items: center;
@@ -19,11 +20,6 @@
   }
 
   &__paragraph {
-    font-size: $sm;
-
-    a {
-      color: $color-hospital-green;
-      text-decoration: none;
-    }
+    font-size: $sm; 
   }
 }
