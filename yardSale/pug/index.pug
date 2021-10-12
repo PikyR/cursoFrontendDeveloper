@@ -1,9 +1,16 @@
 extends ./components/templates.pug
 
 block content
-  .main-container.main-container--index
-    a(href="email-sent.html") email-sent
-    a(href="login.html") login
-    a(href="new-pass.html") new pass
-    a(href="account.html") account
-    a(href="my-account.html") my account
+  section.main-container.main-container--index
+    main.cards-container
+      //- Contenido sin mixin
+      article.product-card
+        img.product-card__img(src="", alt="Product image")
+        .product-card__detail 
+          p.product-card__price $120,20
+          p.product-card__product-name Bicicleta
+        figure.product-card__icon 
+          img(src="assets/icons/bt_add_to_cart.svg", alt="Add to cart")
+
+      //- Mixin
+      +product-card('image.jpg','$ 111,22','Otra bicicleta')
