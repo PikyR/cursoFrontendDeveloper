@@ -187,6 +187,12 @@ body {
   display: flex;
   flex-direction: column;
 }
+.account__value {
+  height: 32px;
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
 
 .content-title--account {
   margin-bottom: 40px;
