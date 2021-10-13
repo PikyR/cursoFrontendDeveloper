@@ -1,8 +1,9 @@
 mixin product-card(productImage, price, productName)
   article.product-card
     img.product-card__img(src="assets/images/"+productImage alt="Product image "+productName)
-    .product-card__detail 
-      p.product-card__price=price
-      p.product-card__product-name=productName
-    figure.product-card__icon 
-      img(src="assets/icons/bt_add_to_cart.svg" alt="Add to cart")
+    .product-card__detail
+      .product-card__info
+        p.product-card__price=price
+        p.product-card__product-name=productName
+      figure.product-card__icon 
+        img(src="assets/icons/bt_add_to_cart.svg" alt="Add to cart")

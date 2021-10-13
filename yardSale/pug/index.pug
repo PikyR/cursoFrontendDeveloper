@@ -2,15 +2,20 @@ extends ./components/templates.pug
 
 block content
   section.main-container.main-container--index
-    main.cards-container
-      //- Contenido sin mixin
-      article.product-card
-        img.product-card__img(src="", alt="Product image")
-        .product-card__detail 
-          p.product-card__price $120,20
-          p.product-card__product-name Bicicleta
-        figure.product-card__icon 
-          img(src="assets/icons/bt_add_to_cart.svg", alt="Add to cart")
-
-      //- Mixin
-      +product-card('image.jpg','$ 111,22','Otra bicicleta')
+    main.cards-container      
+      +product-card('pineapple.jpg','$ 111,22','Pineapple')
+      +product-card('lighter.jpg','$ 111,22','Ligther')
+      +product-card('camera.jpg','$ 111,22','Camera')
+      +product-card('lighter.jpg','$ 111,22','Ligther')
+      +product-card('camera.jpg','$ 111,22','Camera')
+      +product-card('pineapple.jpg','$ 111,22','Pineapple')
+      +product-card('lighter.jpg','$ 111,22','Ligther')
+      +product-card('camera.jpg','$ 111,22','Camera')
+      +product-card('pineapple.jpg','$ 111,22','Pineapple')
+      +product-card('lighter.jpg','$ 111,22','Ligther')
+      +product-card('camera.jpg','$ 111,22','Camera')
+      +product-card('lighter.jpg','$ 111,22','Ligther')
+      +product-card('camera.jpg','$ 111,22','Camera')
+      +product-card('pineapple.jpg','$ 111,22','Pineapple')
+      +product-card('lighter.jpg','$ 111,22','Ligther')
+      +product-card('camera.jpg','$ 111,22','Camera')

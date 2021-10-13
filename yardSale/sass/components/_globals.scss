@@ -34,8 +34,9 @@ body {
   height: 100vh;
   display: grid;
   place-items: center;
-
+  
   &--index {
+    display: block;
     height: auto;
   }
 }
