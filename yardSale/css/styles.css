@@ -97,6 +97,51 @@ body {
   text-decoration: none;
 }
 
+.menu {
+  min-height: auto;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.menu__list {
+  list-style: none;
+  margin-bottom: 12px;
+}
+.menu__list--profile {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #c7c7c7;
+}
+.menu__list--signout {
+  margin-top: auto;
+}
+.menu__item {
+  display: block;
+  padding: 16px 8px;
+}
+.menu__item--signout {
+  padding: 4px 8px;
+}
+.menu__title {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+.menu__link {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000000;
+}
+.menu__link--primary {
+  font-size: 1.4rem;
+  color: #acd9b2;
+}
+.menu__email {
+  font-size: 1.4rem;
+}
+
 .menu-desktop {
   width: 150px;
   padding: 0 8px;
