@@ -97,6 +97,32 @@ body {
   text-decoration: none;
 }
 
+.menu-desktop {
+  width: 150px;
+  padding: 0 8px;
+  height: auto;
+  border: 1px solid #c7c7c7;
+  border-radius: 8px;
+}
+.menu-desktop__list {
+  list-style: none;
+}
+.menu-desktop__item {
+  text-align: end;
+}
+.menu-desktop__link {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000000;
+  padding: 16px 8px;
+}
+.menu-desktop__link--primary {
+  color: #acd9b2;
+  border-top: 1px solid #c7c7c7;
+}
+
 .cards-container {
   min-width: 320px;
   padding: 8px;
