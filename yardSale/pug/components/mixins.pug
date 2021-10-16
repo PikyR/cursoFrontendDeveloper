@@ -7,3 +7,9 @@ mixin product-card(productImage, price, productName)
         p.product-card__product-name=productName
       figure.product-card__icon 
         img(src="assets/icons/bt_add_to_cart.svg" alt="Add to cart")
+
+mixin shop-cart-item(productImage, productName, price)
+  .shop-cart__item
+    img.shop-cart__img(src="assets/images/"+productImage, alt="Product image "+productName)
+    p.shop-cart__product= productName 
+    p.shop-cart__price= price

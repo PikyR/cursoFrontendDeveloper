@@ -20,7 +20,7 @@ body {
   display: grid;
   place-items: center;
 }
-.main-container--index {
+.main-container--block {
   display: block;
   height: auto;
 }
