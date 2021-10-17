@@ -330,6 +330,7 @@ body {
 .my-order {
   min-width: 320px;
   width: 60%;
+  max-width: 600px;
   margin: 0 auto;
   padding: 16px;
 }
@@ -390,6 +391,46 @@ body {
   font-size: 1.6rem;
   font-weight: 700;
   padding-right: 16px;
+}
+
+.orders {
+  min-width: 320px;
+  width: 60%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 16px;
+}
+.orders__title {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.orders__item {
+  width: 100%;
+  margin: 16px 0;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 16px;
+}
+.orders__detail {
+  display: flex;
+  flex-direction: column;
+}
+.orders__date {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.orders__total {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+.orders__price {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: end;
+}
+.orders__icon {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=styles.css.map */

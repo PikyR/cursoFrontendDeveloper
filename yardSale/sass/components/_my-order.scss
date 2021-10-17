@@ -1,6 +1,7 @@
 .my-order {
   min-width: 320px;
   width: 60%;
+  max-width: 600px;
   margin: 0 auto;
   padding: 16px;
   
@@ -36,7 +37,6 @@
     font-weight: 700;
     text-align: end;
   }
-
 }
 
 .shop-cart {
