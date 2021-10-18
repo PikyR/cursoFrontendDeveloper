@@ -31,7 +31,7 @@ body {
 .main-container {
   width: 100%;
   min-width: 320px;
-  height: 100vh;
+  height: calc(100vh - 54px);
   display: grid;
   place-items: center;
   
