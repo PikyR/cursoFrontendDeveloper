@@ -38,35 +38,3 @@
     text-align: end;
   }
 }
-
-.shop-cart {
-  width: 100%;
-  height: auto;
-  
-  &__item {
-    width: 100%;
-    margin: 16px 0;
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    align-items: center;
-    gap: 16px;
-  }
-  &__img {
-    width: 76px;
-    height: 76px;
-    border-radius: 20px;
-    object-fit: cover;
-    object-position: center;
-  }
-  &__product {
-    font-size: $sm;
-    font-weight: 400;
-  }
-
-  &__price {
-    // font-family: roboto;
-    font-size: $md;
-    font-weight: 700;
-    padding-right: 16px;
-  }
-}

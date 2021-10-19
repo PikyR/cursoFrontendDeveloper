@@ -104,6 +104,34 @@ body {
   text-decoration: none;
 }
 
+.shop-cart {
+  width: 100%;
+  height: auto;
+}
+.shop-cart__item {
+  width: 100%;
+  margin: 16px 0;
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  align-items: center;
+  gap: 16px;
+}
+.shop-cart__img {
+  width: 76px;
+  height: 76px;
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: center;
+}
+.shop-cart__product {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.shop-cart__price {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
 .main-header {
   min-width: 320px;
   width: 100%;
@@ -459,35 +487,6 @@ body {
   text-align: end;
 }
 
-.shop-cart {
-  width: 100%;
-  height: auto;
-}
-.shop-cart__item {
-  width: 100%;
-  margin: 16px 0;
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  align-items: center;
-  gap: 16px;
-}
-.shop-cart__img {
-  width: 76px;
-  height: 76px;
-  border-radius: 20px;
-  object-fit: cover;
-  object-position: center;
-}
-.shop-cart__product {
-  font-size: 1.4rem;
-  font-weight: 400;
-}
-.shop-cart__price {
-  font-size: 1.6rem;
-  font-weight: 700;
-  padding-right: 16px;
-}
-
 .orders {
   min-width: 320px;
   width: 60%;
@@ -539,6 +538,7 @@ body {
   .product-detail {
     position: absolute;
     right: 0;
+    width: 384px;
   }
 }
 .product-detail__close-icon {
@@ -579,6 +579,52 @@ body {
 .product-detail__description {
   font-size: 1.6rem;
   font-weight: 300;
+}
+
+.shopping-cart {
+  position: relative;
+  min-width: 320px;
+  width: 100%;
+  max-width: 425px;
+  padding: 16px;
+  background-color: #ffffff;
+}
+@media (min-width: 426px) {
+  .shopping-cart {
+    position: absolute;
+    right: 0;
+    width: 384px;
+  }
+}
+.shopping-cart__header {
+  display: flex;
+  gap: 16px;
+}
+.shopping-cart__header img {
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+.shopping-cart__title {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.shopping-cart__info {
+  height: 76px;
+  display: flex;
+  margin: 40px 0 16px;
+  padding: 0 16px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #f7f7f7;
+}
+.shopping-cart__detail {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.shopping-cart__price {
+  font-size: 1.6rem;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=styles.css.map */
