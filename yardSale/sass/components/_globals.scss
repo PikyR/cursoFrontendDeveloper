@@ -107,6 +107,14 @@ body {
     background-color: $color-light;
     color: $color-hospital-green;
   }
+
+  &--add-to-cart {
+    margin: 28px 0 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
 }
 
 .link {
