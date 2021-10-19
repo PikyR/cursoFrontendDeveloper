@@ -329,6 +329,7 @@ body {
   margin-top: 4px;
 }
 .product-card__price {
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 1.6rem;
 }
@@ -482,6 +483,7 @@ body {
   font-weight: 300;
 }
 .my-order__price {
+  font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
   font-weight: 700;
   text-align: end;
@@ -519,6 +521,7 @@ body {
   font-weight: 300;
 }
 .orders__price {
+  font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
   font-weight: 700;
   text-align: end;
@@ -568,6 +571,7 @@ body {
 }
 .product-detail__price {
   margin-bottom: 4px;
+  font-family: "Roboto", sans-serif;
   font-size: 1.8rem;
   font-weight: 700;
 }
@@ -623,6 +627,7 @@ body {
   font-weight: 700;
 }
 .shopping-cart__price {
+  font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
   font-weight: 700;
 }
